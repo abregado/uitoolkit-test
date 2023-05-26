@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/menu-styles.uss?fileID=7433441132597879392&amp;guid=2130344aede68654caece003c1f56c11&amp;type=3#menu-styles" />
+    <ui:VisualElement name="MenuContainer" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="MenuLeftContainer" class="left-menu">
+            <ui:Label text="HIPERION" display-tooltip-when-elided="true" class="game-title" />
+            <ui:VisualElement name="ButtonContainer" class="button-container">
+                <ui:Button display-tooltip-when-elided="true" name="PlayButton" class="menu-button">
+                    <ui:Label text="Play" display-tooltip-when-elided="true" />
+                </ui:Button>
+                <ui:Button display-tooltip-when-elided="true" name="SettingsButton" class="menu-button">
+                    <ui:Label text="Settings" display-tooltip-when-elided="true" />
+                </ui:Button>
+                <ui:Button display-tooltip-when-elided="true" name="ExitButton" class="low-button">
+                    <ui:Label text="Quit" display-tooltip-when-elided="true" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuRightContainer" style="flex-grow: 1; align-items: flex-end; justify-content: flex-end; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px;">
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="MuteButton" class="menu-button" style="width: 60px; height: 60px; background-image: url(&apos;project://database/Assets/speaker-off.png?fileID=2800000&amp;guid=3b36ff1112e76014db04c71ac1a38710&amp;type=3#speaker-off&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

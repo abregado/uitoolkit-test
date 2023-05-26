@@ -1,0 +1,110 @@
+.menu-button {
+    background-color: rgb(40, 135, 166);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    border-left-color: rgb(159, 251, 255);
+    border-right-color: rgb(18, 70, 72);
+    border-top-color: rgb(159, 251, 255);
+    border-bottom-color: rgb(18, 70, 72);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    height: 80px;
+    width: 300px;
+    transition-duration: 0.3s;
+}
+
+.low-button:focus {
+    border-color: yellow;
+}
+
+.menu-button:focus {
+    border-color: yellow;
+}
+
+.low-button {
+    background-color: rgba(0,0,0,0);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    border-width: 3px;
+    border-color: black;
+    height: 60px;
+    width: 300px;
+    transition-duration: 0.3s;
+    border-radius: 15px;
+}
+
+.low-button > Label {
+    font-size: 40px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    transition-duration: 0.2s;
+    color: rgb(202, 202, 202);
+}
+
+.low-button:hover {
+    border-width: 3px;
+    border-color: rgb(159, 251, 255);
+}
+
+.low-button:hover > Label {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    rotate: -10deg;
+    transition-duration: 0.2s;
+}
+
+.menu-button > Label {
+    font-size: 50px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    transition-duration: 0.2s;
+    color: rgb(202, 202, 202);
+}
+
+.menu-button:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(54, 169, 207);
+}
+
+.menu-button:hover > Label {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    rotate: -10deg;
+    transition-duration: 0.2s;
+}
+
+.game-title {
+    font-size: 100px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    color: rgb(159, 251, 255);
+    width: 100%;
+}
+
+.left-menu {
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    margin-left: 25px;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+.button-container {
+    justify-content: center;
+    margin-top: 35px;
+}

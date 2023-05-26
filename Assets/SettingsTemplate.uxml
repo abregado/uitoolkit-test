@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/menu-styles.uss?fileID=7433441132597879392&amp;guid=2130344aede68654caece003c1f56c11&amp;type=3#menu-styles" />
+    <ui:VisualElement>
+        <ui:Button display-tooltip-when-elided="true" class="menu-button">
+            <ui:Label text="Setting A" display-tooltip-when-elided="true" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" class="menu-button">
+            <ui:Label text="Setting B" display-tooltip-when-elided="true" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" class="menu-button">
+            <ui:Label text="Setting C" display-tooltip-when-elided="true" />
+        </ui:Button>
+        <ui:Button display-tooltip-when-elided="true" name="BackButton" class="low-button">
+            <ui:Label text="Back" display-tooltip-when-elided="true" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

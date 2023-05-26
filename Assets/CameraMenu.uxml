@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/menu-styles.uss?fileID=7433441132597879392&amp;guid=2130344aede68654caece003c1f56c11&amp;type=3#menu-styles" />
+    <ui:VisualElement name="LeftMenu" class="left-menu">
+        <ui:VisualElement name="ButtonContainer" class="button-container" />
+    </ui:VisualElement>
+</ui:UXML>
